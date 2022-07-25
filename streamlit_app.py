@@ -26,6 +26,6 @@ streamlit.text(fruityvice_response.json())
 
 # reads the json response and normalises it as text 
 fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
-streamlit.text(fruityvice_normalized);
+
 # Normalised text converted to dataframe to be displayed in the form of a table
 streamlit.dataframe(fruityvice_normalized)
