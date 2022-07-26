@@ -43,5 +43,4 @@ streamlit.dataframe(my_data_rows)
 
 #allow user to add a fruit of his choice
 add_my_fruit = streamlit.text_input('What fruit would you like to add?','jackfruit')
-streamlit.write('Thanks for adding ', fruit_choice)
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/"+fruit_choice)
+streamlit.write('Thanks for adding ', add_my_fruit)
